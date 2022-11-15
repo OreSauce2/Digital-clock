@@ -72,3 +72,32 @@ h2 {
     background: green;
     color: white;
 }
+
+@media screen and (max-width: 426px) {
+    body>div {
+        align-items: baseline;
+    }
+
+    body {
+        width: 100%;
+        height: 100vh;
+        align-items: center;
+        /* margin-left: 30px; */
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .clock span {
+        font-size: 25px;
+    }
+
+    .clock div {
+        margin: 1px;
+    }
+
+    .clock .text {
+        font-size: 10px;
+    }
+}
